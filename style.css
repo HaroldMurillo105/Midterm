@@ -1,0 +1,299 @@
+html
+{
+scroll-behavior:smooth;
+}
+
+
+@font-face {
+    font-family: "Odachi";
+    src:url("Odachi 400.otf")
+}
+
+@font-face {
+    font-family: "NoirRegular";
+    src:url("NoirStd-Regular.ttf")
+}
+
+@font-face {
+    font-family: "NoirBold";
+    src:url("NoirPro-Bold.ttf")
+}
+
+
+#container {
+  border: 2px solid black;
+height:700px;
+    margin: auto;
+}
+
+#home{  
+    height:760px;
+  background-image:url(falls.jpg);
+  background-size:cover;
+    
+}
+
+.bar {
+  display:flex;
+  align-items:center;  
+  justify-content:space-between;
+  background-color:#015668;
+  height:60px;
+}
+.bar h1{
+	text-align:left;
+	font-family: "Odachi";
+	color:white;
+	margin-left:40px;
+
+}
+
+.bar ul {
+  justify-content:flex-end;  
+  display:flex;
+  list-style: none;
+  margin: 0;
+  align-items:right;
+    flex:1;
+
+}
+
+.bar li {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  font-family: "NoirRegular";
+}
+
+.bar li a {
+    color:white;
+	text-decoration:none;
+	font-size:30px;
+	padding:0px 20px;
+}
+
+.bar a:hover{
+	background-color:#ffd369;
+	
+}
+
+.loc h1{
+	padding-top:400px;
+color:#FFD369; 
+padding-left:50px;
+text-decoration:underline;
+font-size:40px;
+
+
+}
+.loc p{
+	padding-top:20px;
+color:black; 
+padding-left:50px;
+font-size:20px;
+}
+
+.title h1{
+	font-size:50;
+	padding-top: 200px;
+	padding-left: 500px;
+	font-family: "NoirRegular";
+	color: white;
+}
+
+.title p{
+	color:white;    
+	padding-left:380px;
+	font-size:30px;
+	font-family: "NoirRegular";
+	
+}
+
+
+.btn{
+	font-size:15px;
+	margin-top: 50px;
+	margin-left:580px;
+	width:auto;
+	padding: 12px 24px;
+	background-color:#015668;
+	line-height: 150%;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	color: white;
+	font-family:"NoirRegular";
+}
+
+
+
+.loc{  
+  background-image:url(cloud.png), url(place.png) ; 
+    background-size:cover;  
+	    height:760px;
+	width:100%;
+}
+
+
+
+.bene{  
+    height:760px;
+    background-color:white;
+	font-family: "NoirRegular";
+}
+
+
+.beneintro {
+	background-color:#015668;
+	height:150px;
+	text-align:center;
+	padding-top:30px;
+	font-family: "NoirRegular";
+	color:white;
+}
+
+.intro1 {
+	margin-top:auto;
+	margin-left:auto;
+}
+
+.bx1 {
+	width:300px;
+	text-align:center;
+	background:rgba (52,15,185,0.1);
+	box-shadow:5px 10px;
+	padding:20px;
+	margin-top:60px;
+	font-size:16px;
+	color:black;
+	left:5%;
+	position:absolute;
+}
+
+.bx2 {
+	width:300px;
+	text-align:center;
+	background:rgba (52,15,185,0.1);
+	box-shadow:5px 10px;
+	padding:20px;
+	margin-top:60px;
+	font-size:16px;
+	color:black;
+	left:35%;
+	position:absolute;
+}
+
+.bx3 {
+	width:300px;
+	text-align:center;
+	background:rgba (52,15,185,0.1);
+	box-shadow:5px 10px;
+	padding:20px;
+	margin-top:60px;
+	font-size:16px;
+	color:black;
+	left:70%;
+	position:absolute;
+}
+
+.logo {
+	background-color:#015668;
+	width:341px;
+	margin-top:-20px;
+	margin-left:-20px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.lg {
+	height:40px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.con {
+	background-image:url("hills.png"),linear-gradient(black 0%,white 90%);
+	background-size:100%;
+	height:100vh;
+	mix-blend-mode: overlay;
+	display:flex;
+	flex-direction:column;
+}
+
+.ctnct {
+	width:500px;
+	height:370px;
+	text-align:justify;
+	background:rgba(18,132,149,0.4);
+	padding:20px;
+	margin:1% auto 0;
+	font-size:16px;
+	left:absolute;
+	border-radius:10px;
+}
+
+.ctnct h1 {
+	font-family:"NoirRegular";
+	color:#ffd369;
+	text-align:center;
+}
+
+.bttn {
+	font-family:"NoirRegular";
+	margin-top:50px;
+	width:auto;
+	padding:12px 24px;
+	background-color:#014668;
+	cursor:pointer;
+	border-radius:5px;
+	color:white;
+	display:inline-block;
+	margin-left:#ffd369;
+}
+
+.txt {
+	font-size:20px;
+}
+
+form {
+	margin-top:10px;
+	font-family:NoirRegular;
+	text-align:center;
+	color:#ffd369;
+}
+
+.inp {
+	border-radius:5px;
+	width:200px;
+	height:30px;
+}
+
+.footer {
+	clear:both;
+	position:relative;
+	left:0;
+	bottom:0;
+	background-color:#015668;
+	width:100%;
+	height:75px;
+	margin-top:auto;
+	
+	
+}
+
+.footer p {
+	color:#ffd369;
+	font-family:Odachi;
+	margin-top:25px;
+	margin-left:50px;
+	font-size:20px;
+	float:left;
+}
+
+.icons {
+	float:right;
+	margin-top:25px;
+	margin-right:150px;
+}
